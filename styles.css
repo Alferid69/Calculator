@@ -1,0 +1,97 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: lightslategrey;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main{
+  height: 300px;
+  width: 300px;
+  background-color: lightyellow;
+  border-radius: 10px;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form .input-box input {
+  width: calc(100% - 10px);
+  border: none;
+  height: 80px;
+  outline: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.3rem;
+  transition: 0.15s;
+}
+
+form .input-box input:focus{
+  outline: black;
+}
+
+form .buttons{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 100%;
+}
+
+form .buttons input, .fa-delete-left{
+  width: 73px;
+  height: 40px;
+  border: NONe;
+  margin: 1px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.lg-bg {
+  background-color: lightgray;
+  transition: 0.15s;
+}
+
+.lg-bg:hover {
+  background-color: rgb(168, 195, 207);
+}
+
+.dg-bg {
+  background-color: darkgray;
+  transition: 0.15s;
+}
+
+.dg-bg:hover {
+  background-color: rgb(145, 143, 143);
+}
+
+.lb-bg {
+  background-color: lightblue;
+  transition: 0.15s;
+}
+
+.lb-bg:hover {
+  background-color: rgb(130, 197, 219);
+}
+
+.fa-delete-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
